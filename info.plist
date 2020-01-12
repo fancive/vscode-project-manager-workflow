@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>git.fancive.vscode-project-manager-workflow</string>
+	<string>github.com/fancive/vscode-project-manager-workflow</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -66,7 +66,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>search for icode repos</string>
+				<string>search for vscode repos</string>
 				<key>title</key>
 				<string>enter repo name</string>
 				<key>type</key>
@@ -99,14 +99,7 @@
 	</array>
 	<key>readme</key>
 	<string>v0.1
-
-This workflow uses these awesome Python projects:
-
-Delorean by Mahdi Yusuf
-https://github.com/myusuf3/delorean
-
-Alfred Python by Jan Müller
-https://github.com/nikipore/alfred-python</string>
+	</string>
 	<key>uidata</key>
 	<dict>
 		<key>A0F9D61D-41D0-46A8-9D95-34FA7F308E3F</key>
