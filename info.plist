@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>git.fancive.vscode-project-manager-workflow</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>A0F9D61D-41D0-46A8-9D95-34FA7F308E3F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC2E92CC-A9B5-4979-90E2-8F34E51178FF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>fancive</string>
+	<key>description</key>
+	<string>vscode-project-manger search</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>[vs] vscode project manager</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>36</integer>
+				<key>keyword</key>
+				<string>vs</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>loading content...</string>
+				<key>script</key>
+				<string>./vscode "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>search for icode repos</string>
+				<key>title</key>
+				<string>enter repo name</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A0F9D61D-41D0-46A8-9D95-34FA7F308E3F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>CC2E92CC-A9B5-4979-90E2-8F34E51178FF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>v0.1
+
+This workflow uses these awesome Python projects:
+
+Delorean by Mahdi Yusuf
+https://github.com/myusuf3/delorean
+
+Alfred Python by Jan Müller
+https://github.com/nikipore/alfred-python</string>
+	<key>uidata</key>
+	<dict>
+		<key>A0F9D61D-41D0-46A8-9D95-34FA7F308E3F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>195</integer>
+			<key>ypos</key>
+			<integer>125</integer>
+		</dict>
+		<key>CC2E92CC-A9B5-4979-90E2-8F34E51178FF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>615</integer>
+			<key>ypos</key>
+			<integer>125</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>github.com/fancive/vscode-project-manger-workflow</string>
+</dict>
+</plist>
